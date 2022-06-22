@@ -1,0 +1,16 @@
+@import 'normalize.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'button.css';
+
+@media only screen and (max-width:767px) {
+    .hide-for-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hide-for-larger-device {
+        display: none;
+    }
+}

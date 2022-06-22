@@ -1,0 +1,97 @@
+.new-article {
+    flex: 0 0 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 767px) {
+    .new-article {
+        padding: 20px;
+        width: 100%;
+    }
+}
+
+.new-article form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 0 0 50%;
+}
+
+@media only screen and (max-width: 767px) {
+    .input-wrapper {
+        flex: 1 0 100%;
+    }
+}
+
+.flex-column {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .flex-column {
+        align-items: stretch;
+        padding: 0;
+    }
+}
+
+.featured-article-wrapper {
+    flex-direction: row;
+}
+
+.new-article input[type='text'], .new-article select {
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    padding: 8px 10px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #252525;
+}
+
+.new-article input[type='file'] {
+
+}
+
+@media only screen and (max-width: 767px) {
+    .new-article input[type='text'] {
+        width: 100%;
+        max-width: unset;
+    }
+}
+
+.new-article input[type='checkbox'] {
+    margin-right: 10px;
+}
+
+.new-article .input-wrapper label {
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-bottom: 1px;
+    color: #5d5d5d;
+}
+
+/* .new-article input[type='submit'] {
+    background-color: white;
+    border: 2px solid #2c8cff;
+    color: #2c8cff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    cursor: pointer;
+}
+
+.new-article input[type='submit']:hover {
+    background-color: #2c8cff;
+    color: white;
+} */
